@@ -12,8 +12,8 @@ class Users {
 
     function __construct() {
         // create a connection to our database
-        $this->db = new PDO('mysql:host=localhost;dbname=justina20_wdv441_2021;charset=utf8', 
-            'justina20_wdv441_2021', '2341#Cej');           
+        $this->db = new PDO('mysql:host=localhost;dbname=wdv441_2021;charset=utf8', 
+            'root', 'root');           
     }
     
     // takes a keyed array and sets our internal data representation to the array
